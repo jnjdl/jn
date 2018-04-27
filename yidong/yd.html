@@ -1,0 +1,748 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="https://at.alicdn.com/t/font_602672_bhm1ptg5sv8ia4i.css">
+		<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_638992_9dp2tq9mjg5bfbt9.css"/>
+		<link rel="stylesheet" type="text/css" href="swiper-4.2.2.min.css"/>
+		<script src="swiper-4.2.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+		<script src="bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				
+			}
+			
+			ul{list-style: none;}
+			li{
+				float: left;
+			}
+			html,body{
+				width: 100%;
+			}
+			html{
+				font-size: 12px;
+			}
+			
+			/*#top开始*/
+			#top{
+				width: 99%;
+				overflow: hidden;
+				margin: 0 auto;
+				background:#FF0036;
+			}
+			.top-main{
+				width: 310px;
+				margin: 0px auto;
+				overflow: hidden;
+			}
+			.top-main div{
+				float: left;
+			}
+			.top-cen{
+				margin: 0 20%;
+				margin-right: 0;
+			}
+			#top .top-rit{
+				float: right;
+				line-height:32px;
+				color: white;
+			}
+			
+			
+						
+			
+			
+			
+			
+			/*#titl开始*/
+			#titl{
+				
+				overflow: hidden;
+				margin: 0px auto;
+				width: 99%;
+				height: 45px;
+				background:#FF0036;
+			}
+			
+			.center{
+				
+				overflow: hidden;
+				width: 90%;
+				margin: 0 auto;
+			}
+			
+			.dao{
+	            border: 2px #FF0036 solid;
+	            height: 36px;
+	            position: relative;
+	            width: 98%;
+	            margin: 0 auto;
+        	}
+        	.dao:after{
+	            clear: both;
+	            content: "";
+	            display: block;
+	        }
+        	.search-sou{
+        		padding: 0 6px;
+	            outline: none;
+	            border: none;
+	            height: 32px;
+	            float: left;
+	            width: 100%;
+	            padding-left: 30px;
+        	}
+        	
+        	.search-ico{
+	            width: 30px;
+	            height: 32px;
+	            position: absolute;
+	            left: 0;
+	            top: 0;
+	            line-height: 38px;
+	            text-align: center;
+        	}
+        	
+        	
+        	/*#blan开始*/
+        	#blan{
+        		width: 99%;
+				height: 304px;
+				margin: 0 auto;
+				background-image: url(//img.alicdn.com/tfs/TB1UGROm9tYBeNjSspkXXbU8VXa-750-612.jpg_760x760Q50s50.jpg_.webp);
+				background-size: 100% 306px;
+				border: 1px solid transparent;
+        	}
+			.blan-one{
+				width: 90%;
+				margin: 220px 16px 0 16px;
+				overflow: hidden;
+			}
+			.blan-one li{
+				margin-right: 5%;
+				width: 16%;
+				height: 78px;
+			}
+			.blan-one>.li1{
+				margin-right: 0;
+			}
+			.blan-one span{
+				display: block;
+				width: 100%;
+				text-align: center;
+				font-size: 12px;
+			}
+			#blan img{
+				width: 100%;height: 54px;
+			} 
+			
+			
+			
+			/*#banner开始*/ 
+			.banner{
+				width:98%;
+				height: 133px;
+				margin: 0 auto;
+				background: darkgray;
+				position: relative;
+			}
+			.banner img{
+				width: 100%;
+				height: 133px;
+				position: absolute;
+				top: 0;left: 0;
+			}
+			.banner-ul{
+				width: 100%;
+				height: 133px;
+				
+			}
+			.swiper-pagination-bullet{
+				background: darkviolet;
+			}
+			.swiper-pagination-bullet-active{
+				background-color:#F2F2F2;
+			}
+			
+			
+			
+			/*#flex开始*/
+			#flex{
+				width: 99%;
+				height: 90px;
+				margin: 0 auto;
+				background:#F2F2F2 ;
+			}
+			#flex img{
+				width: 100%;
+				height: 100%;
+			}
+			
+			/*#shwp开始*/
+			#shwp{
+				width: 98%;
+				height: 260px;
+				margin: 0 auto;
+			}
+			#shwp img{
+				width: 100%;
+				height: 100%;
+			}
+			/*#show开始*/   	
+			#show{
+				width: 97%;
+				height:270px;
+				margin: 0 auto;
+			}
+			.shin{
+				width: 99%;
+				height: 100%;
+				margin: 0 auto;
+			}
+        	.shin-top{
+        		width: 100%;
+        		height: 15%;/*
+        		background: #FFFFFF;*/
+        	}
+        	.shin-top-lef{
+        		width: 30%;
+        		height: 100%;
+        		line-height:40px;
+        		float: left;
+        		font-size: 16px;
+        	}
+        	.shin-top-rit{
+        		width: 70%;
+        		height: 100%;
+        		line-height:40px;
+        		float: right;
+        		text-align: right;
+        		color: silver;
+        		font-size: 14px;
+        	}
+        	.shin-main{
+        		width: 100%;
+        		height: 85%;
+        		margin: 0 auto;
+        	}
+        	.shin-main-let{
+        		width: 40%;
+        		height: 100%;
+        		float: left;
+        		background-image:url(//img.alicdn.com/tfs/TB15n0QhgvD8KJjy0FlXXagBFXa-435-600.jpg_450x10000Q50s50.jpg_.webp);
+        		background-size:100% 100%;
+        		position: relative;
+        	}
+        	.shin-main-let>img{
+        		position: absolute;
+        		top:50%;left:15%;
+        	}
+        	.shin-main-lettwo{
+        		background-image:none;
+        		width: 40%;
+        		height: 100%;
+        	}
+        	.shin-main-lettwo>img{
+        		position: absolute;
+        		top:-4%;left:0%;
+        		width: 100%;
+        		height: 104%;
+        	}
+        	.let1{
+        		width: 40%;
+        		height: 10%;
+        		font-size: 14px;
+        		position: absolute;
+        		top:5%;left:10%;
+        		line-height: 23px;
+        		color: white;
+        	}
+        	.let2{
+        		width: 55%;
+        		height: 6%;
+        		font-size: 12px;
+        		position: absolute;
+        		top:22%;left: 10%;
+        		line-height: 14px;
+        		color: gold;
+        	}
+        	.let3{
+        		width: 43%;
+        		height: 6%;
+        		font-size: 12px;
+        		position: absolute;
+        		top:30%;left:10%;
+        		line-height: 14px;
+        		color: white;
+        	}
+        	
+			.shin-main-rit{
+				width: 59.4%;
+        		height: 100%;
+        		float:right;
+        		border: 1px solid #e3e3e3;
+			}
+			.cmro{
+				width: 100%;
+				height: 49.5%;
+				position: relative;
+				border-bottom: 1px solid #F2F2F2;
+			}
+			.cmro1{
+				border: none;
+			}
+			.cmro1>#cmro1-pic{
+				width: 56px;
+				height: 28px;
+			}
+			.cmro>img:nth-child(1){
+				width: 45%;height: 15%;
+				display: block;
+				position: absolute;
+				top: 15%;left: 5%;
+			}
+			.cmro-p{
+				display: block;
+				position: absolute;
+				top: 35%;left: 5%;
+				font-size: 12px;
+				color: silver;
+			}
+			.cmro-p1{
+				position: absolute;
+				top: 55%;left: 5%;
+			}
+			.cmro>img:nth-child(4){
+				display: block;
+				position: absolute;
+				top: 15%;left: 50%;
+			}
+			.cmro>img:nth-child(3){
+				width: 45%;height: 15%;
+				display: block;
+				position: absolute;
+				top: 55%;left: 5%;
+			}
+			.cmrt{
+				width: 100%;
+				height: 50%;
+			}
+			.cmrt-one{
+				width: 49.5%;
+				height: 100%;
+				float: left;
+				position: relative;
+				border-right:1px solid #F2F2F2;
+			}
+			.cmrt-to{
+				border: none;
+			}
+			.cmrt-one>img:nth-child(1){
+				position: absolute;
+				top: 5%;left: 15%;
+			}
+			.cmrt-one>p{
+				position: absolute;
+				top: 25%;left: 15%;
+				color:silver;
+			}
+			.cmrt-one>img:nth-child(3){
+				position: absolute;
+				top: 45%;left: 25%;
+				font-size: 14px;
+			}
+			
+			
+			/*#comdy开始*/
+			#comdy{
+				width: 97%;
+				overflow: hidden;
+				padding: 0;
+				margin-top: 10px;
+				position: relative;
+			}
+			.comdy-pic{
+				position: absolute;
+				top: 2%;left: 2%;
+			}
+			.comdy-sp{
+				position: absolute;
+				bottom: 26%;left: 10%;
+				color:#ff3b44;
+				font-size: 12px;
+				background:#fad3d5;
+			}
+			.comd-0{
+				margin-right: 4%;
+			}
+			.comd-1{
+				width:48%;
+				height: 320px;
+				padding: 0;
+				border: 1px solid #e3e3e3;
+				margin-bottom: 4%;
+			}
+			.col-one{
+				width: 100%;
+				height: 53%;
+				background: rgba(0,0,0,.03);
+				
+			}
+			.col-one>img{
+				width: 100%;
+				height: 100%;
+			}
+			.col-two{
+				margin: 5% 1% 14% 1%;
+				font-size: 14px;
+				color: #3e3e3e;
+				word-break: break-all;
+			}
+			.col-thr{
+				width: 100%;
+				height: 8%;
+				border-bottom: 1px dashed #e3e3e3;
+			}
+			.col-thr-lef{
+				float: left;
+				height: 100%;
+				margin-left: 10%;
+				line-height:24px;
+				font-size: 18px;
+			}
+			.col-thr-rit{
+				float: right;
+				margin-right: 10%;
+				line-height:24px;
+				font-size: 20px;
+				color:#BCBCBC;
+			}
+			.col-for{
+				margin: 4% 6% 0 6%;
+				font-size: 12px;
+			}
+			.col-for>span{
+				color: #2683ff;
+				font-size: 12px;
+			}
+				
+		</style>
+	</head>
+	<body>
+		<div id="top">
+			<div class="top-main">
+				<div class="top-lef"><img src="img/1.png"/></div>
+				<div class="top-cen"><img src="img/0.png"/></div>
+				<div class="top-rit">登录</div>
+			</div>
+		</div>
+		<div id="titl">
+			
+			<div class="center">
+				<div class="dao">
+					<input type="text" class="search-sou" placeholder="搜索  天猫  商品 /品牌/店铺" autofocus required autocomplete="off"/>
+					<span class="search-ico iconfont icon-sousuo"></span>
+					
+				</div>
+				
+			</div>
+		</div>
+		<div id="blan">
+			<ul class="blan-one">
+				<li>
+					<img src="//img.alicdn.com/tfs/TB1aLGSneGSBuNjSspbXXciipXa-168-168.png_100x150Q90s50.jpg_.webp"/>
+					<span>苏宁易购</span>
+				</li>
+				<li>
+					<img src="//img.alicdn.com/tfs/TB1W71Gnf5TBuNjSspcXXbnGFXa-168-168.png_100x150Q90s50.jpg_.webp"/>
+					<span>天猫超市</span>
+				</li>
+				<li>
+					<img src="//img.alicdn.com/tfs/TB11pyynk9WBuNjSspeXXaz5VXa-168-168.png_100x150Q90s50.jpg_.webp"/>
+					<span>天猫国际</span>
+				</li>
+				<li>
+					<img src="//img.alicdn.com/tfs/TB1_LCSneGSBuNjSspbXXciipXa-168-168.png_100x150Q90s50.jpg_.webp"/>
+					<span>聚划算</span>
+				</li>
+				<li class="li1">
+					<img src="//img.alicdn.com/tfs/TB1KM_dnbSYBuNjSspfXXcZCpXa-168-168.png_100x150Q90s50.jpg_.webp"/>
+					<span>分类</span>
+				</li>
+			</ul>
+		</div>
+		<div class="banner swiper-container">
+			<ul class="banner-ul swiper-wrapper">
+				<li class="swiper-slide"><img src="//img.alicdn.com/tfs/TB1qhbqnbGYBuNjy0FoXXciBFXa-1035-390.png_760x760Q90s50.jpg_.webp"/></li>
+				<li class="swiper-slide"><img src="////gw.alicdn.com/imgextra/i1/10/TB2aJkdm7CWBuNjy0FaXXXUlXXa_!!10-0-lubanu.jpg_760x760Q50s50.jpg_.webp"/></li>
+				<li class="swiper-slide"><img src="//img.alicdn.com/tfscom/TB1jMD2XOwIL1JjSZFsXXcXFFXa.jpg_760x760Q50s50.jpg_.webp"/></li>
+				<li class="swiper-slide"><img src="//img.alicdn.com/tps/i4/TB1BKhPlGSWBuNjSsrbSuu0mVXa.jpg_760x760Q50s50.jpg_.webp"/></li>
+				<li class="swiper-slide"><img src="////gw.alicdn.com/imgextra/i3/106/TB2dGqMnKGSBuNjSspbXXciipXa_!!106-0-lubanu.jpg_760x760Q50s50.jpg_.webp"/></li>
+			</ul>
+			<ul class="swiper-pagination">
+				
+			</ul>
+		</div>
+		<div id="flex">
+			<img src="//img.alicdn.com/tfs/TB1ZjgenKuSBuNjy1XcXXcYjFXa-1125-270.gif?getAvatar=1.gif"/>
+		</div>
+		<div id="shwp">
+			<img src="//img.alicdn.com/tfs/TB1nF6ohuuSBuNjy1XcXXcYjFXa-1500-982.png_960x960Q90s50.jpg_.webp"/>
+		</div>
+		<div id="show">
+			<div class="shin">
+				<div class="shin-top">
+					<div class="shin-top-lef">天猫官方直营</div>
+					<div class="shin-top-rit">官方直采·极速物流·售后无忧</div>
+				</div>
+				<div class="shin-main">
+					<div class="shin-main-let">
+						<p class="let1">天猫超市</p>
+						<p class="let2">天猫超市七周年</p>
+						<p class="let3">满199减30</p>
+						<img src="//gw.alicdn.com/bao/uploaded/i4/1910146537/TB2QRIfmL5TBuNjSspcXXbnGFXa_!!1910146537.png_180x180Q50s50.jpg_.webp" width="88" height="88"/>
+					</div>
+					<div class="shin-main-rit">
+						<div class="cmro">
+							<img src="//img.alicdn.com/tfs/TB1oTZ0g8fH8KJjy1XbXXbLdXXa-332-56.png_960x960Q50s50.jpg_.webp"/>
+							<p class="cmro-p">官方直采</p>
+							<img src="//img.alicdn.com/tfs/TB1HScoiAOWBuNjSsppXXXPgpXa-230-42.png_960x960Q50s50.jpg_.webp"/>
+							<img src="//img.alicdn.com/bao/uploaded/TB1IP5XSpXXXXXqXVXXL6TaGpXX_165x5000Q50s50.jpg_.webp" width="82" height="82"/>
+						</div>
+						<div class="cmrt">
+							<div class="cmrt-one">
+								<img src="//img.alicdn.com/tfs/TB1wt35XuMxLeJjy0FjXXcDbVXa-119-29.png_960x960Q50s50.jpg_.webp" width="68" height="17"/>
+								<p>199减30元</p>
+								<img src="//img.alicdn.com/bao/uploaded/i1/TB1hwFxLpXXXXXBXVXXXXXXXXXX_!!0-item_pic.jpg_110x10000Q50s50.jpg_.webp" width="55" height="51"/>
+							</div>
+							<div class="cmrt-one cmrt-to">
+								<img src="//img.alicdn.com/tfs/TB18yEKaUgQMeJjy0FgXXc5dXXa-180-45.png_960x960Q50s50.jpg_.webp" width="66" height="17"/>
+								<p>奢品周年庆</p>
+								<img src="//gw.alicdn.com/bao/uploaded/i4/2670830951/TB2oNJneL2H8KJjy1zkXXXr7pXa-2670830951.jpg_110x10000Q50s50.jpg_.webp" width="55" height="51"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="show">
+			<div class="shin">
+				<div class="shin-top">
+					<div class="shin-top-lef">品牌活动</div>
+				</div>
+				<div class="shin-main">
+					<div class="shin-main-let shin-main-lettwo">
+						<img src="//img.alicdn.com/tfs/TB1s6oCdfuSBuNkHFqDXXXfhVXa-435-627.png_790x420Q90s50.jpg_.webp"/>
+					</div>
+					<div class="shin-main-rit">
+						<div class="cmro">
+							<img src="//img.alicdn.com/tfs/TB1QYaHm4rI8KJjy0FpXXb5hVXa-225-44.png_760x760Q50s50.jpg_.webp" width="65" height="15"/>
+							<p class="cmro-p" style="color: black;">优选新品好物</p>
+							<p class="cmro-p1">今日上新99+</p>
+							<img src="//img.alicdn.com/bao/uploaded/bao/upload/TB1QQPLj7yWBuNjy0Fpwu1ssXXa.png_150x150Q50s50.jpg_.webp" width="82" height="82"/>
+						</div>
+						<div class="cmro cmro1">
+							<img src="//img.alicdn.com/tfs/TB1rp.xXuMxLeJjy0FjXXcDbVXa-118-29.png?getAvatar=1_760x760Q50s50.jpg_.webp" width="61" height="15"/>
+							<p class="cmro-p" style="color: black;">优选新品好物</p>
+							<img src="//img.alicdn.com/bao/uploaded/TB1Y3fESFXXXXb0XFXXXXXXXXXX-640-320.png_760x760Q50s50.jpg_.webp" id="cmro1-pic"/>
+							<img src="//gw.alicdn.com/bao/uploaded/i4/0/TB2h9ghnhWYBuNjy1zkXXXGGpXa_!!0-juitemmedia.jpg_180x180Q50s50.jpg_.webp" width="82" height="82"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="comdy">
+			<div class="col-xs-6 comd-1 comd-0">
+				<div class="col-one">
+					<img src="//img.alicdn.com/bao/uploaded/i1/196993935/TB1mDjtmKuSBuNjSsplXXbe8pXa_!!0-item_pic.jpg_490x330Q50s50.jpg_.webp"/>
+				</div>
+				<div class="col-two">男装 袋装圆领T恤(短袖) 404133 优衣库</div>
+				<div class="col-thr">
+					<div class="col-thr-lef">￥39</div>
+					<div class="col-thr-rit iconfont icon-gouwuche"></div>
+				</div>
+				<div class="col-for">
+					<span>[1297人认为]</span> #穿上显气质 #穿着很舒适 #尺寸没有偏大
+				</div>
+			</div>
+			
+			<div class="col-xs-6 comd-1">
+				<img src="//img.alicdn.com/bao/uploaded/TB1eWlgKFXXXXXaXXXXSutbFXXX.jpg_100x150Q50s50.jpg_.webp" class="comdy-pic" width="50" height="25"/>
+				<div class="comdy-sp">破损包退</div>
+				<div class="col-one">
+					<img src="//img.alicdn.com/bao/uploaded/bao/upload/TB1t.H1cFooBKNjSZFPwu0a2XXa.png_270x270Q50s50.jpg_.webp"/>
+				</div>
+				<div class="col-two">【百草味大礼包】休闲网红食品小吃</div>
+				<div class="col-thr">
+					<div class="col-thr-lef">￥49.9</div>
+					<div class="col-thr-rit iconfont icon-gouwuche"></div>
+				</div>
+				<div class="col-for">
+					<span>[超过1.3万人认为]</span>#味道很棒 #新鲜 #分量足
+				</div>
+			</div>
+			
+			
+			
+			<div class="col-xs-6 comd-1 comd-0">
+				<div class="comdy-sp">商场同款</div>
+				<div class="col-one">
+					<img src="//img.alicdn.com/bao/uploaded/i3/196993935/TB1zVRudY1YBuNjSszhXXcUsFXa_!!0-item_pic.jpg_490x330Q50s50.jpg_.webp"/>
+				</div>
+				<div class="col-two">男装 弹力运动拉链连帽开衫 404167 优衣库</div>
+				<div class="col-thr">
+					<div class="col-thr-lef">￥149</div>
+					<div class="col-thr-rit iconfont icon-gouwuche"></div>
+				</div>
+				<div class="col-for">
+					<span>[用户评价]</span> #穿上显气质 #穿着挺舒服 #中国身材的版型
+				</div>
+			</div>
+			
+			<div class="col-xs-6 comd-1">
+				<div class="col-one">
+					<img src="//img.alicdn.com/bao/uploaded/i3/890482188/TB1GXnCXH1YBuNjSszhXXcUsFXa_!!0-item_pic.jpg_490x330Q50s50.jpg_.webp"/>
+				</div>
+				<div class="col-two">耐克官方NIKE TANJUN男子运动休闲鞋</div>
+				<div class="col-thr">
+					<div class="col-thr-lef">￥499</div>
+					<div class="col-thr-rit iconfont icon-gouwuche"></div>
+				</div>
+				<div class="col-for">
+					<span>[1049人认为]</span>#穿着效果不错 #尺码不错 #外观漂亮
+				</div>
+			</div>
+			
+			
+			
+			<div class="col-xs-6 comd-1 comd-0">
+				<img src="//img.alicdn.com/bao/uploaded/TB1FxgBmKOSBuNjy0FdXXbDnVXa_100x150Q50s50.jpg_.webp" class="comdy-pic" width="50" height="25"/>
+				<div class="col-one">
+					<img src="//img.alicdn.com/bao/uploaded/i1/2788410480/TB2SE_1dACWBuNjy0FaXXXUlXXa_!!2788410480.png_270x270Q50s50.jpg_.webp"/>
+				</div>
+				<div class="col-two">马克华菲夏季休闲跑步鞋男网面透气运动鞋</div>
+				<div class="col-thr">
+					<div class="col-thr-lef">￥269</div>
+					<div class="col-thr-rit iconfont icon-gouwuche"></div>
+				</div>
+				<div class="col-for">
+					<span>[1008人认为]</span>  #穿着很好 #鞋很舒服 #款式很好
+				</div>
+			</div>
+			
+			<div class="col-xs-6 comd-1">
+				<div class="comdy-sp">官方直售</div>
+				<div class="col-one">
+					<img src="//img.alicdn.com/bao/uploaded/i1/917264765/TB1OEbFobuWBuNjSszgXXb8jVXa_!!0-item_pic.jpg_490x330Q50s50.jpg_.webp"/>
+				</div>
+				<div class="col-two">sk-ii sk2神仙水skii面部精华套装</div>
+				<div class="col-thr">
+					<div class="col-thr-lef">￥1980</div>
+					<div class="col-thr-rit iconfont icon-gouwuche"></div>
+				</div>
+				<div class="col-for">
+					<span>[用户评价]</span> #保湿滋润 #清洁度强 #控油
+				</div>
+			</div>
+			
+			
+			
+			<div class="col-xs-6 comd-1 comd-0">
+				<div class="comdy-sp">破损包退</div>
+				<img src="//img.alicdn.com/bao/uploaded/TB14DuKSXXXXXXUXpXXXXXXXXXX_100x150Q50s50.jpg_.webp" class="comdy-pic" width="50" height="25"/>
+				<div class="col-one">
+					<img src="//img.alicdn.com/bao/uploaded/i4/619123122/TB2woTfk8DH8KJjSszcXXbDTFXa_!!619123122.png_270x270Q50s50.jpg_.webp"/>
+				</div>
+				<div class="col-two">良品铺子手撕面包营养早餐食品全麦蛋糕</div>
+				<div class="col-thr">
+					<div class="col-thr-lef">￥29.9</div>
+					<div class="col-thr-rit iconfont icon-gouwuche"></div>
+				</div>
+				<div class="col-for">
+					<span>[超过3.4万人认为]</span>#味道很好 #新鲜 #口感好
+				</div>
+			</div>
+			
+			<div class="col-xs-6 comd-1">
+				<div class="comdy-sp">坏单包退</div>
+				<img src="//img.alicdn.com/bao/uploaded/T10U5kXXluXXb1upjX.jpg_100x150Q50s50.jpg_.webp" class="comdy-pic" width="50" height="25"/>
+				<div class="col-one">
+					<img src="//img.alicdn.com/bao/uploaded/bao/upload/TB1TN4sa7fb_uJkSnb4wu0CrXXa.png_270x270Q50s50.jpg_.webp"/>
+				</div>
+				<div class="col-two">【送4斤共发12斤】新鲜水果红肉红心菠萝蜜</div>
+				<div class="col-thr">
+					<div class="col-thr-lef">￥99.9</div>
+					<div class="col-thr-rit iconfont icon-gouwuche"></div>
+				</div>
+				<div class="col-for">
+					<span>[超过1.1万人认为]</span> #口感不错 #味道好 #新鲜
+				</div>
+			</div>
+			
+			
+			
+			
+			<div class="col-xs-6 comd-1 comd-0">
+				<div class="comdy-sp">商场同款</div>
+				<div class="col-one">
+					<img src="//img.alicdn.com/bao/uploaded/i3/196993935/TB1hSEsdStYBeNjSspaXXaOOFXa_!!0-item_pic.jpg_490x330Q50s50.jpg_.webp"/>
+				</div>
+				<div class="col-two">女装 麻棉宽腿裤(附腰带) 404679 优衣库</div>
+				<div class="col-thr">
+					<div class="col-thr-lef">￥249</div>
+					<div class="col-thr-rit iconfont icon-gouwuche"></div>
+				</div>
+				<div class="col-for">
+					<span>[用户评价]</span> #版型样式很潮 #穿着舒适 #穿着显气质
+				</div>
+			</div>
+			
+			<div class="col-xs-6 comd-1">
+				<img src="//img.alicdn.com/bao/uploaded/TB1vDvUKpXXXXaKXFXXSutbFXXX.jpg_100x150Q50s50.jpg_.webp" class="comdy-pic" width="50" height="25"/>
+				<div class="col-one">
+					<img src="//img.alicdn.com/bao/uploaded/bao/upload/TB1HEWdXmfD8KJjSszhwu2IJFXa.png_270x270Q50s50.jpg_.webp"/>
+				</div>
+				<div class="col-two">【详情页领券立减50元】苹果iPhone 8 Plus</div>
+				<div class="col-thr">
+					<div class="col-thr-lef">￥5488</div>
+					<div class="col-thr-rit iconfont icon-gouwuche"></div>
+				</div>
+				<div class="col-for">
+					<span>[7101人认为]</span> #性能不错 #很好操作 #款式漂亮
+				</div>
+			</div>
+			
+			
+		</div>
+	</body>
+	<script src="jquery-3.3.1.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.swiper-container', {
+			//可选选项，自动滑动
+			loop: true,
+			speed:500,
+			preventIntercationOnTransition : true,
+			pagination: {
+			    el: '.swiper-pagination',
+			    clickable:true
+			},
+			autoplay: {
+			    delay: 1000,//1秒切换一次
+			    disableOnInteraction: false
+			}
+
+		})
+		
+		
+		
+		 
+		
+	</script>
+</html>
